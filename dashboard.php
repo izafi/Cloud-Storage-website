@@ -2,6 +2,7 @@
 require_once 'db.php';
 requireLogin();
 
+
 // Get user's files
 $stmt = $pdo->prepare("
     SELECT * FROM files 
